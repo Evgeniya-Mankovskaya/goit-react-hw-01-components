@@ -1,0 +1,29 @@
+.friendList {
+  margin: 0 auto;
+}
+
+.item {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  width: 360px;
+  box-shadow: 2px -7px 27px -1px rgba(107, 107, 107, 0.2);
+  background-color: rgb(250, 250, 250);
+}
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.avatar {
+  margin-right: 20px;
+}
+
+.name {
+  font-size: 30px;
+}
